@@ -1,39 +1,104 @@
+/* index HTML CSS */
+
+/* body{
+    background: gray;
+}
+
+.site{
+    width: 960px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #000;
+    border-left: dashed 2px yellow;
+    border-radius: 100px 100px 100px 100px;
+    
+}
+
+h1{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 16pt;
+    letter-spacing: -1px;
+    font-family: Algerian;
+}
+.photo{
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+} */
+
+/* INDEX HTML CSS END */
+
+
+
+
+
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
 }
-.main_site{
-    margin-right: auto;
-    margin-left: auto;
-    border: 2px solid gray;
+
+.site{
     width: 960px;
+    border: 3px solid rgb(49, 199, 116);
+    margin: 10px auto;
+    border-radius: 20px;
+
 }
 
-#site{
-    border-bottom: 2px solid gray;
+.header{
+    height: 80px;
+}
+.header h1 {
+    line-height: 80px;
+    font-family: Algerian;
+    font-weight: normal;
     text-align: center;
-    font-size: 30px;
-    font-weight: 150px;
-    padding: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(49, 199, 116);
 }
 
-.content{
-    margin-top: 30px;
-    text-align: center;
-    margin-bottom: 80px;
-
+.content h1{
+    margin: 0 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
 }
 
-#img{
-    margin-top: 30px;
-    width: 400px;
-    border-radius: 180px;
+.content p {
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.5;
+    margin: 10px;
+    font-size: 18pt;
+}
+
+#rasm{
+    display: block;
+    border-radius: 50%;
+    margin: 100px auto;
+    width: 500px;
 }
 
 .footer{
-    border-top: 1px solid gray;
-    font-size: 30px;
+    height: 60px;
+}
+
+.footer h3{
+    line-height: 60px;
     text-align: center;
-    padding-top: 20px;
-    margin: 20px;
+    border-top: 3px solid rgb(49, 199, 116);
+    color: rgb(0, 92, 92);
+    text-transform: uppercase;
 }

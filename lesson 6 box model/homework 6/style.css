@@ -1,274 +1,232 @@
-*{margin: 0; padding: 0;}
-a{
-	text-transform: none;
-}
-#asosiy
-{
-	border-radius: 10px;	
-	padding: 10px;
-	margin: 0 auto;
-	margin-top: 20px;
-	width: 800px;
-	height: 1000px;
-	background: #e0d8dc;
-}
-#tpanel
-{
-	margin: 0 auto;
-	width: 780px;
-	height: 200px;
-}
-/*Tepa panelni chap qismi*/
-#tpch
-{
-	float: left;
-	width: 160px;
-	height: 200px;
-}
-#tpch-sarlavha
-{
-	width: 160px;
-	font-size: 9pt;
-	text-transform: uppercase;
-	text-align: center;
-	padding-top: 8px;
-	padding-bottom: 8px; 
-	background: #f7e738;
-}
-#tpch-menu
-{
-	border-bottom: 1px solid gray;
-	width: 160px;
-	padding: 5.2px 0px 4px 40px;
-	background: white;
-}
-/*Tepa panelni chap qismi ohiri*/
-
-/*Tepa panelni o'ng qismi*/
-#tpo
-{
-	float: right;
-	background: white;
-	width: 620px;
-	height: 200px;
-}
-#tpo-t
-{
-	width: 620px;
-	height: 32px;
-}
-#tpo-t-logo
-{
-	float: left;
-	width: 280px;
-	text-align: center;
-	padding: 7px 0px 7px 0px;
-	text-transform: uppercase;
-	background: white;
-}
-#tpo-t-menular
-{
-	float: left;
-	width: 340px;
-	height: 32px;
-	background: green;
-}
-#tpo-t-menu
-{
-	float: left;
-	width: 170px;
-	text-align: center;
-	padding: 7px 0px 5px 0px;
-	background: white;
-	border-bottom: 2px solid white;
-}
-#tpo-t-menu:hover
-{
-	border-bottom: 2px solid #f7e738; 
-}
-a
-{
-	color: black;
-	text-decoration: none;
+*{
+	margin: 0;
+	padding: 0;
 }
 
-#tpo-kontent
-{
-	width: 620px;
-	height: 168px;
-    background-color: aqua;
- }
- #reklama
- {
- 	font-size: 20pt;
- 	color: #fff;
- 	text-align: center;
- 	padding: 30px 0px 0px 0px;
- }
- #reklama a
- {
- 	color: white;
- 	text-transform: uppercase;
- }
-  #reklama-matni
- {
- 	color: #fff;
- 	font-size: 7pt;
- 	text-align: center;
- 	padding: 20px 0px 20px 0px;
- }
- #button
- {
- 	margin: 0 auto;
- 	text-align: center;
- 	background: white;
- 	padding: 5px 20px 5px 20px;
- 	width: 50px;
- 	border: 1px solid white;
- }
-/*Tepa panelni o'ng qismi ohiri*/
-
-/*Registratsiya qismi boshi*/
-#registratsiya
-{
-	margin: 0 auto;
-	width: 780px;
-	height: 115px;
-	background: gray;
+.clear{
+	clear: both;
 }
-#reg
-{
-	margin-top: 40px;
-	width: 260px;
-	height: 60px;
-	float: left;
-}
-#reg-panel
-{
-	border-radius: 10px;
-	border:black;
-	float: right;
-	width: 200px;
-	height: 60px;
-	padding: 10px 10px -10px 10px;
-	margin-top: 5px;
-	background: black;
-}
-#reg-panel: input
-{
-	padding: 10px;
-}
-#reg-panel: p{
-	color: white;
-}
-/*Registratsiya qismi ohiri*/
-
-/*Kontent*/
-#kontent
-{
-	width: 780px;
-	height: 415px;
-	background: white;
-	margin:0 auto;
-}
-#news
-{
-	float: left;
-	width: 213px;
-	height: 360px;
-	margin-top: 10px;
-	margin-left: 10px;
-}
-#news-s
-{
-	padding: 5px 0px 5px 0px;
-	text-align: center;
-	background: #d7e149;
-}
-#news-t
-{
-	text-align: justify;
-	padding: 5px 5px 5px 5px;
-	border: 1px solid gray;
-	font-size: 9pt;
-}
-#news-t-button
-{
-	margin: 0 auto;
-	text-align: center;
-	background: gray;
-	border-radius: 10px;
-	padding: 2px 5px 2px 5px;
-}
-#contact
-{
-	margin-top: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
-	float: right;
-	width: 533px;
-	height: 358px;
-	border: 1px solid black;
-	border-radius: 10px;
-	background: white;
-}
-#tugma
-{
-	text-align: center;
-	margin: 0 auto;
-	width: 220px;
-}
-#knopka
-{
-	text-align: center;
-	margin: 0 auto;
-	padding: 4px 0px 4px 20px;
-	float: left;
-	width: 80px;
-	background: #489bfa;
-	border-radius: 20px;
-	border:1px solid gray;
-}
-/*Kontent ohiri*/
-
-/*Pastki qismi*/
-#past
-{
-	width: 780px;
-	margin: 0 auto;
-}
-#pch
-{
-	float: left;
-	width: 230px;
-	height: 75px;
-	background: #489bfa;
-}
-#pong
-{
-	float: left;
-	width: 550px;
-}
-#pong-t
-{
-	background: #e3e962;
-	width: 550px;
-}
-#pong-t-link
-{
-	font-size: 10pt;
+.btn{
+	margin-top: 30px;
 	display: inline-block;
-	border-bottom: 2px solid #e3e962;
-	padding: 18px 18px 14px 18px;
+	width: 100px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: rgb(146, 204, 165);
 }
-#pong-t-link:hover
-{
-	border-bottom: 2px solid #fff;
+
+.site{
+	background-color: rgb(173, 172, 172);
+	width: 960px;
+	margin: 20px auto;
+	border: 1px solid green;
+	border-radius: 10px;
 }
-#pong-p
-{
-	width: 550px;
-	height: 26px;
-	background: #ffd234;
+
+.header{
+	margin: 10px 20px;
 }
-/*Pastki qismi ohiri*/
+
+.nav{
+	width: 220px;
+	float: left;
+}
+.nav li {
+	border-radius: 10px;
+
+	list-style: none;
+	height: 50px;	
+	line-height: 50px;
+	text-indent: 20px;
+	background-color: #fff;
+	border-bottom: 1px solid #000;
+}
+#web{
+	text-transform: uppercase;
+	font-weight: 600;
+	background-color: rgb(162, 216, 126);
+}
+
+.up_info{
+	width: 700px;
+	height: 50px;
+	float: left;
+	border-radius: 10px;
+	background-color: rgb(218, 152, 152);
+}
+.up_info h1{
+	text-transform: uppercase;
+	margin-left: 60px;
+	float: left;
+	line-height: 50px;
+}
+
+.up_info p{
+	font-size: 12pt;
+	margin-left: 80px;
+	float: left;
+	line-height: 50px;
+}
+
+
+.reclama{
+	width: 700px;
+	height: 307px;
+	float: left;
+	border-radius: 10px;
+	background-color: rgb(119, 116, 116);
+}
+
+.reclama h1{
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 50px;
+	color: #fff;
+}
+
+.reclama p {
+	margin: 20px 20px;
+	font-family: monospace;
+	text-indent: 50px;
+	text-align: justify;
+	font-size: 12pt;
+}
+
+.reclama button{
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	text-transform: uppercase;
+	width: 120px;
+	height: 40px;
+	background-color: rgb(102, 160, 79);
+}
+
+.forms{
+	float: left;
+	margin: 40px 25px;
+	border-radius: 10px
+}
+
+.forms p {
+	color: #000;
+}
+
+.content{
+	width: 960px;
+	background-color: #fff;
+}
+
+.news{
+	border-radius: 10px;
+	background-color: #fff;
+	margin-left: 20px;
+	width: 300px;
+	float: left;
+}
+
+.new{
+	border-radius: 10px;
+	margin: 20px 20px;
+	border: 1px solid black;
+
+}
+
+
+.new h1{
+	border-radius: 10px;
+
+	background-color: rgb(131, 212, 93);
+	text-align: center;
+}
+
+.new p{
+	text-align: justify;
+	text-indent: 20px;
+	padding: 10px;
+	border: #000;
+}
+
+.new button{
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-size: 12pt;
+	text-align: center;
+	width: 200px;
+	height: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background-color: aqua;
+}
+
+
+
+.contact_page{
+	float: left;
+	width: 580px;
+	height: 500px;
+	border: 2px solid green;
+	border-radius: 10px;
+	background-color: #fff;
+	margin: 20px 20px;
+}
+.contact_page h1{
+	text-align: center;
+}
+.inputs1{
+	margin-left: 50px;
+	background-color: #fff;
+	width: 260px;
+	float: left;
+}
+
+.inputs2{
+	background-color: #fff;
+	width: 260px;
+	float: left;
+}
+
+.inputs1 p {
+	margin-top: 20px;
+}
+
+.inputs2 p {
+	margin-top: 20px;
+}
+.inputs1 button {
+	margin-left: 90px;
+}
+
+.inputs2 button {
+	margin-left: 0px;
+}
+
+.footer{
+	width: 960px;
+	height: 100px;
+}
+
+.blue_footer{
+	background-color: aqua;
+	width: 240px;
+	height: 100px;
+	float: left;
+}
+
+.footer_links{
+	float: left;
+}
+
+.footer_links ul{
+	width: 700px;
+}
+
+.footer_links ul li{
+	float: left;
+	list-style: none;
+	line-height: 100px;
+	font-size: 14pt;
+	margin-left: 40px;
+}

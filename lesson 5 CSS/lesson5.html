@@ -4,43 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Css -> Cascading Style sheet</title>
+    <title>CSS bilan ishlash</title>
     <style>
-        #table {
-            align: center;
-            width: 960px;
-            text-align: center;
-            border: solid #000 2px;
-        }
-        #table_tr{
-            height: 500px;
-            align: center;
-            vertical-align: top;
-        }
-        #test{
-            width: 300px;
-            border-right: soli #000 2px;
-        }
         h1{
-            color: red;
+            text-align: center;
+            font-size: 20px;
         }
         p{
+            color: red;
+            font-size: 20pt;
+            text-align: justify;
+            text-indent: 50px;
             font-family: Arial;
-            font-size: 16px;
+        }
+        #bahor{
+            color: orange;
+        }
+        #tatu{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: right;
+        }
+        #test{
+            color: red;
+            width: 200px;
+            height: 400px;
+            vertical-align: top;
+            text-transform: uppercase;
+        }
+        #news{
+            text-transform: capitalize;
+            height: 60px;
             color: gray;
-            text-indent: 30px;
-            text-align: left;
+        }
+        .lorem{
+            color: orangered;
+            font-size: 15pt;
+            vertical-align: top;
+            font-family: algerian;
+            text-align: justify;
+            text-indent: 50px;
+            text-decoration:  red underline dotted;
         }
     </style>
 </head>
 <body>
-    <table id="table">
-        <tr id="table_tr">
-            <td id="test" ><h1>TEST</h1></td>
-            <td><h1>Yangiliklar</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos voluptatem, placeat nostrum neque ab laboriosam ex necessitatibus, porro illum amet voluptatibus quam quis eligendi officiis, temporibus rem nesciunt! Nesciunt, deleniti.</p>
-            </td>
+    <!-- <h1>Salom</h1>
+    <h1 id="bahor">Bahor</h1>
+    <h2 id="tatu">TATU</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nostrum distinctio laudantium, obcaecati 
+        repudiandae optio aliquam porro magni doloribus in suscipit quia alias commodi velit fugit tempore ab! 
+        Veritatis, consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus voluptas accusamus blanditiis. Nostrum dolore nihil tempora repellat natus, ipsa officiis debitis magni possimus explicabo sunt fugiat dolorem nesciunt iure provident.</p> -->
+    <table width="960px" color="black" border="2px" align="center">
+        <tr>
+            <td rowspan="2" width="200px" id="test"><h1>TEST</h1></td>
+            <td id="news"><h1>Yangiliklar</h1></td>
+        </tr>
+        <tr>
+            <td><p class="lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis vel soluta quidem quasi quo cum suscipit corporis, tempora officia? Provident ullam soluta iste doloremque nobis eos eum nemo atque molestiae
+            </p></td>
         </tr>
     </table>
+
 </body>
 </html>

@@ -1,0 +1,51 @@
+*{margin: 0;
+padding: 0;}
+
+.site{
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+#header{
+    height: 60px;
+    background-color: rgb(66, 133, 122);
+}
+
+#header h1 {
+    line-height: 60px;
+    text-align: center;
+}
+
+#menu{
+    float: left;
+    width: 260px;
+    height: 350px;
+    background: rgb(218, 139, 139);
+}
+#content {
+    float: left;
+    width: 540px;
+    color: rgb(233, 177, 177);
+}
+
+.c1{
+    background-color: rgb(72, 38, 85);
+    height: 200px;
+}
+
+.c2{
+    background-color: rgb(255, 0, 0);
+    height: 200px;
+}
+
+.extra{
+    float: left;
+    width: 160px;
+    height: 350px;
+    background-color: rgb(54, 42, 9);
+}
+
+.clear{
+    clear: both;
+}
