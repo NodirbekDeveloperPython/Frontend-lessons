@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.site{
+    width: 960px;
+    margin: 10px auto;
+    border: 2px solid greenyellow;
+}
+
+.header{
+    height: 60px;
+    background-color: #eee;
+}
+
+.menu{
+    float: left;
+    width: 200px;
+    height: 500px;
+    background-color: rgb(153, 102, 123);
+}
+
+.content{
+    float: left;
+    width: 760px;
+    height: 500px;
+    background-color: rgb(121, 163, 252);
+}
+
+.content h2{
+    text-align: center;
+    line-height: 4;
+    font-size: 20pt;
+}
+
+.left_box{
+    width: 380px;
+    float: left;
+}
+
+.left_box p{
+    text-align: justify;
+    text-indent: 50px;
+    padding: 20px 10px;
+}
+
+.images img{
+    width: 100px;
+}
+
+.right_box{
+    width: 380px;
+    float: left;
+}
+
+.right_box img {
+    width: 370px;
+}
+
+.footer{
+    clear: both;
+    height: 60px;
+    background-color: rgb(56, 40, 40);
+}
