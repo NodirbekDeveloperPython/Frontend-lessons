@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear: both;
+}
+
+.site{
+    width: 1366px;
+    margin: 10px auto;
+    border-top: 8px solid #ff880c;
+    border-bottom: 8px solid #ff880c;
+
+}
+
+.header{
+    width: 1366px;
+    color: #ff880c;
+    background: #fff  url(img/header_bg.png) no-repeat right top;
+}
+
+.olov{
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-left: 250px;
+    
+}
+
+.sayt_nomi{
+    float: left;
+    margin-left: 30px;
+
+}
+
+.sayt_nomi h1{
+    margin-top: 50px;
+} 
+
+.boglanish{
+    text-align: right;
+    margin-right: 50px;
+}
+.boglanish img {
+    float: left;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.boglanish p {
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+
+.boglanish ul li{
+    list-style: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav{
+    height: 60px;width: 1366px;
+    background-color: #ff880c;
+}
+
+.nav ul{
+    float: left;
+    width: 1366px;
+    margin-left: 150px;
+}
+
+.nav ul li{
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    line-height: 60px;
+    color: #fff;
+    padding: 0 18px;
+}
+
+.nav ul li:hover{
+    color: #fff;
+    background-color: #ffc917;
+}
+
+.izlash{
+    margin-top: 15px;
+    display: block;
+    width: 200px;
+    margin-left: 150px;
+    float: left;
+}
+
+.izlash form input{
+    display: block;
+    width: 100px;
+    height: 20px;
+    float: left;
+
+}
+.izlash form button{
+    border-radius: 40px;
+    display: block;
+    margin-left: 20px;
+    width: 30px;
+    float: left;
+    background-color: #ff880c;
+    border: 0;
+}
+
+
+.content{
+    width: 1366px;
+}
+
+.action1{
+    width: 1366px;height: 441px;
+    background-image: url(img/qidiruv.png);
+}
+
+.action1 h1{
+    color: #fff;
+    padding-top: 154px;
+    font-size: 40pt;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: right;
+}
+
+
+.action2{
+    width: 1366px;
+    height: 300px;
+}
+
+.about_us{
+    margin-top: 20px;
+    float: left;
+    width: 724px;
+    margin-left: 130px;
+}
+
+.about_us h1{
+    color: #ff880c;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about_us p{
+    color: #ff880c;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0 20px 0px 0px;
+    font-size: 14pt;
+    line-height: 1.4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about_us_btn{
+    display: block;
+    text-align: center;
+    margin-right: 60px;
+    text-transform: uppercase;
+    background-color: #ff880c;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;text-decoration: none;
+    float: right;
+    color: #fff;
+}
+
+
+.about_us_btn:hover{
+    background-color: #ffc917;
+}
+
+.our_products{
+    margin-right: 45px;
+    float: left;
+    width: 464px;
+    height: 300px;
+}
+
+
+.cards{
+    width: 1366px;
+    height: 275px;
+    background-color: #ff880c;
+}
+
+.cards div div img{
+    width: 154px;
+    height: 154px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+.cards div div img:hover{
+    background-color: #ffc917;
+}
+
+.cards div div h3{
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.cards div div h3:hover{
+    color: #ffc917;
+}
+
+.for_cards{
+    width: 750px;
+    margin: 20px auto;
+}
+
+.card1{
+    width: 250px;
+    float: left;
+}
+
+.card2{
+    width: 250px;
+    float: left;
+}
+
+.card3{
+    width: 250px;
+    float: left;
+}
+
+
+.action3{
+    background-image: url(img/eko.png);
+    width: 1366px;
+    height: 656px;
+}
+
+.action3 h2{
+    color: #fff;
+    font-size: 40pt;
+    padding-top: 300px;
+    margin-left: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.footer{
+    width: 1366px;
+    height: 576px;
+    background-image: url(img/Layer\ 7.png);
+}
+
+.footer_main_info{
+    width: 1366px;
+    height: 150px;
+    background-image: url(img/footer-2.png);
+}
+
+.address{
+    margin-left: 100px;
+    float: left;
+    height: 300px;
+    width: 400px;
+}
+
+.address img{
+    margin-top: 50px;
+    float: left;
+}
+
+.info{
+    margin-top: 50px;   
+    margin-left: 60px;
+}
+
+.footer_email{
+    margin-left: 100px;
+    float: left;
+    height: 300px;
+    width: 400px;
+}
+
+.footer_email img{
+    float: left;
+    margin-top: 50px;
+}
+
+.footer_email .info{
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.footer_tel{
+    float: left;
+    width: 280px;
+}
+
+.footer_tel img{
+    float: left;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.footer_tel .info{
+    float: left;
+    margin-left: 30px;
+}
+
+.author{
+    color: #fff;
+    text-align: center;
+    margin-top: 220px;
+}

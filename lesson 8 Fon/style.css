@@ -1,0 +1,40 @@
+*{margin: 0;
+padding: 0;}
+
+.site{
+    width: 960px;
+    margin: 0 auto;
+    border: 2px solid green;
+}
+
+.header{
+    width: 960px;
+    background-color: #bbb;
+    background-image: url(math.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px 50px;
+    background-position: right center;
+}
+
+.content{
+    width: 960px;
+    height: 400px;
+    background-color: #e8631c;
+}
+
+.links a{
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    border: 2px solid red;
+    width: 150px;height: 40px;
+    line-height: 40px;text-indent: 20px;
+    text-decoration: none;
+    background: #eee url(math.jpg) no-repeat right top;
+    background-size: 50px;
+}
+
+.links a:hover{
+    background-position: left center;
+    background-color:  #d0d;
+}
