@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clear{
+    clear:both;
+}
+
+.site{
+    width: 755px;
+    margin: 10px auto;
+    background-color: #778089;
+    background-image: url(img/4.png), url(img/qiz.png), url(img/bg-header.png), url(img/bg-header0.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 0px 0px, 228px 0px, 0px 0px;
+}
+
+.company_name{
+    width: 287px;
+    height: 87px;
+    float: left;
+    padding-left: 70px;
+    margin-top: 60px;
+    background-image: url(img/LOGO.png), url(img/Layer\ 18.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 5px center , 0px 0px 50px 50px;
+}
+
+.company_name h1{
+    margin-top: 18px;
+    font-size: 20px;
+}
+
+.nav{
+    margin-top: -180px;
+    float: right;
+    margin-right: 40px;
+    background-color: #ced937;
+    width: 150px;
+    height: 185px;
+    border-radius: 10px 10px 20px 20px;
+}
+
+.nav ul li{
+    background: url(img/lmenu.png) no-repeat ;
+    cursor: pointer;
+    height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 30px;
+    font-weight: 500;
+    margin-top: 5px;
+    list-style: none;
+    transition: all 1.5s 0s ease;
+}
+
+.nav ul li:hover{
+    background: url(img/lmenu.png) no-repeat right center;
+    color: rgb(0, 63, 63);
+}
+
+.header_bottom_line{
+    margin-top: 10px;
+    float: left;
+    width: 755px;
+    height: 56px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.content{
+    width: 755px;
+}
+
+.search_line{
+    margin-top: 20px;
+    width: 755px;height: 56px;
+    background-color: #fff;
+}
+
+.welcome{
+    line-height: 56px;
+    height: 56px;
+    margin-left: 30px;
+    padding-left: 20px;
+    float: left;
+    width: 400px;
+    text-transform: uppercase;
+    font-size: 12pt;
+    background:  url(img/welcome.png) no-repeat left center;
+}
+
+.search{
+    height: 56px;
+    line-height: 56px;
+    background:  url(img/welcome.png) no-repeat left center;
+    margin-left: 30px;
+    padding-left: 20px;
+    font-size: 12pt;
+    float: left;
+    width: 255px;
+}
+
+
+.left_block{
+    float: left;
+    width: 550px;
+}
+
+.left_block .text{
+    width: 500px;
+    padding: 20px 20px 20px 30px;
+    text-align: justify;
+    font-size: 12pt;
+    line-height: 1.3;
+    cursor: pointer;
+}
+
+.left_block .text p:first-child{
+    text-indent: 30px;
+}
+
+.left_block .text p:first-child::first-letter{
+    color: #ffbe47;
+    font-size: 18pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left_block .text p:hover:nth-child(2){
+    color: #000;
+}
+
+.left_block .text p{
+    color: rgb(0, 7, 71);
+}
+
+.footer{
+    width: 550px;height: 50px;
+    background-color: #ffbe47;
+}
+
+.footer ul{
+    margin-left: 50px;
+}
+
+.footer ul li{
+    float: left;
+    line-height: 50px;
+    padding: 0px 10px;
+    list-style: none;
+    transition: all 1s 0s ease-out;
+    cursor: pointer;
+}
+
+.footer ul li:hover{
+    background-color: #ced937;
+    color: #fff;
+}
+
+.right_blcok{
+    width: 200px;
+    background-color: #3778ce;
+}
+
+.request{
+    background-color: #3778ce;
+    float: left;
+    padding-top: 70px;
+}
+
+.request input{
+    padding-left: 20px;
+    border-radius: 10px;
+    border-style: hidden;
+    height: 25px;
+    width: 160px;
+}
+
+.request button{
+    margin: 15px 60px;
+    height: 25px;
+    width: 70px;
+    border-radius: 10px;
+    border-style: hidden;
+    transition: all 1.5s 0.1s ease;
+}
+
+
+.btn:hover{
+    cursor: pointer;
+    background: #1000222f;
+    width: 80px;
+    color: #fff;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.latest_news{
+    height: 24px;
+    font-size: 12px;
+    float: left;
+    width: 190px;
+    background-color: #fff;
+}
+
+.latest_news h3{
+    padding-left: 30px;
+    line-height: 24px;
+    background: url(img/welcome.png) no-repeat left center;
+    background-position: 10px 6px;
+}
+
+.sign_in{
+    background-color: #3778ce;
+    float: left;
+    width: 180px;
+    height: 423px;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.sign_in p{
+    padding: 10px 5px;
+}
+
+.sign_in form input{
+    width: 160px;
+    height: 25px;
+    border-style: hidden;
+    border-radius: 10px;
+}
+
+.sign_in form button{
+    border-style: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 70px;
+    margin: 10px 45px;
+    transition: all 2s 0.1s ease;
+}
+
+.end_site{
+    width: 550px;
+    height: 60px;
+}
+
+.end_site h2{
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14pt;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
