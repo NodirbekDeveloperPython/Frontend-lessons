@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.site{
+    width: 960px;
+    margin: 10px auto;
+    height: 500px;
+    border: 1px solid rgb(73, 99, 21);
+    background-image: radial-gradient(at center, yellowgreen, blue, red);
+}
+
+.block{
+    width: 220px;
+    height: 300px;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin-left: 330px;
+    margin-top: 100px;
+    background: rgba(0, 107, 139, 0.527);
+    box-shadow: 0px 0px 20px inset;
+}
+
+.block:active{
+    box-shadow: 0 0 40px outset;
+}
+
+.block label{
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.block input[type="text"]{
+    margin: 0 10px;
+    border-radius: 10px;
+    height: 20px;
+    padding-left: 10px;
+    border-style: hidden;
+    box-shadow: 0 0 10px inset;
+}
+
+.block input[type="text"]:active{
+    box-shadow: 0 0 40px outset;
+}
+
+.block input[type="email"]{
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0 0 5px inset;
+    height: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.block input[type="radio"]{
+    margin-left: 20px;
+}
+
+.block button[type="submit"]{
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 10px;
+    background:  #fff;
+    font-size: 12px;
+    border-style: none;
+    box-shadow: 0 0 10px ;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.block button[typr="submit"]:hover{
+    box-shadow: 0 0 50px;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+}
