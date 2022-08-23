@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body{
+    background-color: black;
+
+}
+.site{
+    width: 1200px;
+    height: 650px;
+    margin: 0 auto;
+    background-color: rgb(36, 31, 31);
+}
+
+.header{
+    background-color: rgb(36, 31, 31);
+    float: left;
+    width: 300px;
+}
+
+.title{
+    width: 300px;
+    height: 200px;
+}
+
+.title h1{
+    margin-left: 50px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 300px;
+    height: 400px;
+}
+
+.menu ul{
+    list-style: none;
+    width: 300px;
+}
+
+.menu ul li{
+    height: 80px;
+    line-height: 60px;
+    border-left: 5px solid rgb(36, 31, 31);
+}
+
+.menu ul li:hover{
+    border-left: 5px solid orangered;
+}
+
+.menu ul li:hover .box_premyera{
+    display: block;
+}
+
+.menu ul li:hover .box_serial{
+    display: block;
+}
+
+.menu ul li:hover .box_kinolar{
+    display: block;
+}
+
+.menu ul li:hover .box_about{
+    display: block;
+}
+
+.menu ul li a{
+    padding-left: 60px;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.box_premyera{
+    position: relative;
+    display: none;
+    width: 900px;
+    height: 650px;
+    top: -260px;
+    left: 295px;
+    background: rgb(129, 58, 58) url(../img/1.png) no-repeat left top;
+}
+
+.about{
+    position: relative;
+    width: 800px;
+    height: 200px;
+    background-color:  #211c22;
+    border-radius: 10px  0 0 10px;
+    opacity: 0.7;
+    top: 320px;
+    left: 100px;
+}
+
+.about_title{
+    font-size: 25pt;
+    text-indent: 20px;
+}
+
+.about_text{
+    padding: 0 10px;
+    text-align: justify;
+    margin-left: 60px;
+    font-size: 14pt;
+    line-height: 1.5;
+}
+
+.box_serial{
+    position: relative;
+    display: none;
+    width: 900px;
+    height: 650px;
+    top: -340px;
+    left: 295px;
+    background: rgb(129, 58, 58) url(../img/2.png) no-repeat left top;
+}
+
+.box_kinolar{
+    position: relative;
+    display: none;
+    width: 900px;
+    height: 650px;
+    top: -420px;
+    left: 295px;
+    background: rgb(129, 58, 58) url(../img/3.png) no-repeat left top;
+}
+
+.box_about{
+    background: rgb(129, 58, 58) url(../img/4.png) no-repeat left top;
+    position: relative;
+    display: none;
+    width: 900px;
+    height: 650px;
+    top: -500px;
+    left: 295px;
+    background-color: #00cf34;
+}
+
+.footer{
+    height: 50px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.footer img{
+    margin-left: 30px;
+    cursor: pointer;
+    width: 20px;
+}
+
+.footer img:hover{
+    box-shadow: 0 0 30px blue;
+}
